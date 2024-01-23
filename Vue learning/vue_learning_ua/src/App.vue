@@ -1,9 +1,16 @@
 <template>
-  <h1>App</h1>
+  <h1>Year: {{year}}</h1>
   <my-component />
 </template>
 
 <script>
+  export default {
+    data() {
+      return {
+        year: 2024
+      }
+    }
+  }
 </script>
 
 <style>
